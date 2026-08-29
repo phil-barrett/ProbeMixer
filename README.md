@@ -8,3 +8,6 @@ ProbeMixer is not designed to support PNP sensors.
 
 <img width="1370" height="1181" alt="probe combiner V091" src="https://github.com/user-attachments/assets/c65c7319-a792-43c0-84ee-a1773820587a" />
 
+## Aug 28, 2026
+
+V0.91 sent off for small test build. Expect boards back in 7-10 days.
