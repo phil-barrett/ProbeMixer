@@ -26,6 +26,7 @@ Note, that 5V on the input section requires closing the solder jumpers to reduce
 
 People have asked how they would use this board. I have a 3D probe and a touch (contact) probe.  The 3D probe is an NC device and the touch probe is (by it's nature) is NO.  So, I can't wire them together and have to swap them out to use them. The 3D probe is great for finding edges and making height maps. I use the appropriate probing option in the GCode Sender (ioSender in this case). The touch probe is good for finding the workpiece surface height and I use the probing option in ioSender for that. Using the mixer, I can have both wired in and not have to remember to switch them. 
 
+![NO Touch and NC 3D probes](https://github.com/phil-barrett/ProbeMixer/blob/main/Photos/ProbeMixer%20scenario%201.jpg)
 
 
 ## Aug 28, 2026
