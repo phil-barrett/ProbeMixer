@@ -8,13 +8,20 @@ ProbeMixer is not designed to support PNP sensors.
 
 ![ProbeMixer V0.91](https://github.com/phil-barrett/ProbeMixer/blob/main/Photos/probemixer%20V091.jpg)
 
-## Aug 28, 2026
-
-V0.91 sent off for small test build. Expect boards back in 7-10 days.
-
 ## Aug 29, 2026
 
 Created DIN Rail brackets (via my parametric DIN Rail generator) for ProbeMixer.  Fixed dimension errors on mounting holes. Uploaded new photos/renderings.
 
 ![DIN Rail brackets w/ProbeMixer](https://github.com/phil-barrett/ProbeMixer/blob/main/Photos/ProbeMixer%20V0.91%20wDIN%20Rail%20Brackets.jpeg)
 
+## Power options for ProbeMixer
+
+Probemixer was designed to support multiple power options.  The input and output sections can be powered separately. It supports 5V, 12V and 24V on either. Typically, The input section will be powered to match the probe peripherals and the output section powered to match the input of the CNC controller board.
+
+For example, using ProbeMixer with a 5V device like an Arduino, one would use 5V for the output section and power the input section with the voltage recommended for the probes.
+
+Note, that 5V on the input section requires closing the solder jumpers to reduce the resistance for the opto-isolators.  This creates some risks. Specifically, a ProbeMixer set up for 5V inputs will not tolerate 12 or 24V power. That WILL damage the board. Fortunately, there are few powered probes that require 5V.
+
+## Aug 28, 2026
+
+V0.91 sent off for small test build. Expect boards back in 7-10 days.
