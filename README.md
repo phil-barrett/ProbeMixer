@@ -6,8 +6,15 @@ ProbeMixer support 4 input signals: A touch probe, a 3D probe, a tool setter pro
 
 ProbeMixer is not designed to support PNP sensors.
 
-<img width="1370" height="1181" alt="probe combiner V091" src="https://github.com/user-attachments/assets/c65c7319-a792-43c0-84ee-a1773820587a" />
+![ProbeMixer V0.91](https://github.com/phil-barrett/ProbeMixer/blob/main/Photos/probemixer%20V091.jpg)
 
 ## Aug 28, 2026
 
 V0.91 sent off for small test build. Expect boards back in 7-10 days.
+
+## Aug 29, 2026
+
+Created DIN Rail brackets (via my parametric DIN Rail generator) for ProbeMixer.  Fixed dimension errors on mounting holes. Uploaded new photos/renderings.
+
+![DIN Rail brackets w/ProbeMixer](https://github.com/phil-barrett/ProbeMixer/blob/main/Photos/ProbeMixer%20V0.91%20wDIN%20Rail%20Brackets.jpeg)
+
