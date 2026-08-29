@@ -14,13 +14,19 @@ Created DIN Rail brackets (via my parametric DIN Rail generator) for ProbeMixer.
 
 ![DIN Rail brackets w/ProbeMixer](https://github.com/phil-barrett/ProbeMixer/blob/main/Photos/ProbeMixer%20V0.91%20wDIN%20Rail%20Brackets.jpeg)
 
-## Power options for ProbeMixer
+### Power options for ProbeMixer
 
 Probemixer was designed to support multiple power options.  The input and output sections can be powered separately. It supports 5V, 12V and 24V on either. Typically, The input section will be powered to match the probe peripherals and the output section powered to match the input of the CNC controller board.
 
 For example, using ProbeMixer with a 5V device like an Arduino, one would use 5V for the output section and power the input section with the voltage recommended for the probes.
 
 Note, that 5V on the input section requires closing the solder jumpers to reduce the resistance for the opto-isolators.  This creates some risks. Specifically, a ProbeMixer set up for 5V inputs will not tolerate 12 or 24V power. That WILL damage the board. Fortunately, there are few powered probes that require 5V.
+
+### Usage Scenario
+
+People have asked how they would use this board. I have a 3D probe and a touch (contact) probe.  The 3D probe is an NC device and the touch probe is (by it's nature) is NO.  So, I can't wire them together and have to swap them out to use them. The 3D probe is great for finding edges and making height maps. I use the appropriate probing option in the GCode Sender (ioSender in this case). The touch probe is good for finding the workpiece surface height and I use the probing option in ioSender for that. Using the mixer, I can have both wired in and not have to remember to switch them. 
+
+
 
 ## Aug 28, 2026
 
