@@ -6,7 +6,7 @@ ProbeMixer support 4 input signals: A touch probe, a 3D probe, a tool setter pro
 
 ProbeMixer is not designed to support PNP sensors.
 
-![ProbeMixer V0.91](https://github.com/phil-barrett/ProbeMixer/blob/main/Photos/probemixer%20V091.jpg)
+![ProbeMixer V0.91](https://github.com/phil-barrett/ProbeMixer/blob/main/Photos/ProbeMixer%20V0.92%20dimensions.jpg)
 
 ## Aug 29, 2026
 
