@@ -8,6 +8,10 @@ ProbeMixer is not designed to support PNP sensors.
 
 ![ProbeMixer V0.91](https://github.com/phil-barrett/ProbeMixer/blob/main/Photos/ProbeMixer%20V0.92%20dimensions.jpg)
 
+## Oct 21, 2026
+
+Made a few changes to the design.  Foremost, reorganized the Tool Setter input to assume shared VCC and Gnd. Modified Output section to allow board level configuration of which probe outputs connect to which screw terminal. Tweaked resister values. Also added warning for the 5V older jumpers. A bit more testing an it will be ready to send off for the next prototype.
+
 ## Aug 29, 2026
 
 Created DIN Rail brackets (via my parametric DIN Rail generator) for ProbeMixer.  Fixed dimension errors on mounting holes. Uploaded new photos/renderings.
