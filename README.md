@@ -8,6 +8,12 @@ ProbeMixer is not designed to support PNP sensors.
 
 ![ProbeMixer V0.91](https://github.com/phil-barrett/ProbeMixer/blob/main/Photos/ProbeMixer%20V0.92%20dimensions.jpg)
 
+## Oct 25, 2026
+
+Sigh, after testing a lot more with the V0.91 board, I have concluded that my original design is too flawed. The use of so many pull up resistors makes it hard to balance all my requirements, especially 5, 12 and 24V support. I could go on but suffice it to say, this design is not workable. So, I have pivoted to a different approach. Do the probe mixing within a 5V (maybe 3.3V) core and use optos to translate in and out of the core.  Optos make for reasonably simple and isolated voltage translation. This requires a voltage regulator that can handle up to 24V but the overall current draw is so small, I can get away with using a simple LDO. This points to using 5V for the core to minimize the LDO's power dissipation. More info forthcoming soon.
+
+In hindsight, this should have been obvious. Chalk it up to learning.
+
 ## Oct 21, 2026
 
 Made a few changes to the design.  Foremost, reorganized the Tool Setter input to assume shared VCC and Gnd. Modified Output section to allow board level configuration of which probe outputs connect to which screw terminal. Tweaked resister values. Also added warning for the 5V older jumpers. A bit more testing an it will be ready to send off for the next prototype.
