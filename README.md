@@ -6,7 +6,11 @@ ProbeMixer support 3 input signals: A touch probe, a 3D probe and a tool setter 
 
 ProbeMixer is not designed to support PNP sensors.
 
-![ProbeMixer V0.91](https://github.com/phil-barrett/ProbeMixer/blob/main/Photos/ProbeMixer%20V0.92%20dimensions.jpg)
+![ProbeMixer V0.95](https://github.com/phil-barrett/ProbeMixer/blob/main/Photos/ProbeMixer095.jpg)
+
+## Nov 12, 2026
+
+Received V0.95 boards back from the PCB house. Clearly I need to be less trusting of KiCAD footprints. The voltage regulator I used had the inputs and outputs reversed. First power up at 12V fried all the 5V ICs. It really was my own fault for not verifying the footprint of a chip I haven't used before. Fortunately, I had 5 boards made so a little emergency rework with an ugly hack got the second board up and running at 12V. And yes, it works exactly the way it should. Very happy, indeed. I need to do testing at 5V and 24V as well as testing with a number of different probe types. 
 
 ## Oct 25, 2026
 
