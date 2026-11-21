@@ -8,6 +8,10 @@ ProbeMixer is not designed to support PNP sensors.
 
 ![ProbeMixer V0.95](https://github.com/phil-barrett/ProbeMixer/blob/main/Photos/ProbeMixer095.jpg)
 
+## Nov 20, 2026
+
+Continued testing of the probe mixer. It is looking pretty good. Mixing NC and NO probes works correctly. I may do another test build run to validate the voltage regulator fix as well a few more tweaks before first manufacturing run. At this point to holiday season is starting to tax my time so it looks like February 2027 before first product availability.
+
 ## Nov 12, 2026
 
 Received V0.95 boards back from the PCB house. Clearly I need to be less trusting of KiCAD footprints. The voltage regulator I used had the inputs and outputs reversed. First power up at 12V fried all the 5V ICs. It really was my own fault for not verifying the footprint of a chip I haven't used before. Fortunately, I had 5 boards made so a little emergency rework with an ugly hack got the second board up and running at 12V. And yes, it works exactly the way it should. Very happy, indeed. I need to do testing at 5V and 24V as well as testing with a number of different probe types. 
